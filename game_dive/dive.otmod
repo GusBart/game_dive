@@ -1,0 +1,9 @@
+Module
+  name: game_dive
+  description: use o DIVE para mergulhar na agua.
+  author: Walox
+  website:
+  sandboxed: true
+  scripts: [ dive ]
+  @onLoad: init()
+  @onUnload: terminate()
